@@ -217,5 +217,42 @@ font-weight: 400;
     width: 1140px;
 height: 775px;
 margin: 0 auto;
-border: 2px solid green;
+
+margin-top: 0px;
+}
+.insperation-content h4{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+.insperation-content p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 20px;
+margin-right: 20px;
+height: 26px;
+margin-top: 0px;
+}
+.website iframe{
+    width: 1076px;
+height: 550px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 30px;
+border-radius: 16px;
+
 }
