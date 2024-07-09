@@ -256,3 +256,48 @@ margin-top: 30px;
 border-radius: 16px;
 
 }
+.target-container{
+    width: 1140px;
+height: 460px;
+
+margin: 0 auto;
+background: rgb(255, 255, 255);
+}
+.target-container h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.target-container p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 30px;
+margin-right: 30px;
+
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: rgba(255, 223, 0, 0.05);
+
+}
+.skill-container button{
+    display: flex;
+    flex-direction: left;
+    
+}
