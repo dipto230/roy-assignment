@@ -61,7 +61,7 @@ margin: 32px 0px;
 
 min-height: 1233px;
 margin: 0 auto;
-margin-top: 40px;
+margin-top: 100px;
 
 
 }
@@ -303,8 +303,8 @@ margin-right: 30px;
 }
 
 .next-target-container{
-    width: 1140px;
-height: 866px;
+    width: 1000px;
+height: 800px;
 
 margin: 0 auto;
 margin-top: 150px;
@@ -351,4 +351,81 @@ font-size: 24px;
 font-weight: 800;
 
 }
+
+.sixth-container{
+    width: 3000px;
+height: 313px;
+margin: 0 auto;
+border: 2px solid green;
+}
+
+
+
+
+
+
+
+.support-banner {
+    background-image: url(../assets/handshake.jpg); 
+    background-size: cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+    box-sizing: border-box;
+    width: 1050px;
+height: 250px;
+left: 20px;
+right: 150px;
+margin-top: 500px;
+bottom: 180px;
+border-radius: 16px;
+}
+
+.support-banner h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.support-banner p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.support-banner form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.support-banner input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.support-banner button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.support-banner button:hover {
+    background-color: #0056b3;
+}
+
 
